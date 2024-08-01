@@ -31,7 +31,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section {
+article {
     margin-bottom: 20px;
 }
 
@@ -48,7 +48,8 @@ p {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 footer {
