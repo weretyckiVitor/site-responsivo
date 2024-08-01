@@ -3,45 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rammstein - Uma Breve História</title>
+    <title>Rammstein - Uma Jornada Musical</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Rammstein - Uma Breve História</h1>
+        <div class="header-content">
+            <h1>Rammstein</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#membros">Membros</a></li>
+                    <li><a href="#discografia">Discografia</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    
     <main>
-        <article>
-            <h2>Introdução</h2>
-            <p>Rammstein é uma banda alemã de metal industrial formada em 1994 em Berlim. Conhecidos por suas letras provocativas e performances ao vivo intensas, o grupo se destacou não apenas pelo som pesado, mas também pela estética e polêmica que cercam suas músicas e apresentações.</p>
-        </article>
-        <article>
-            <h2>Membros da Banda</h2>
-            <p>A banda é composta por seis membros principais:</p>
-            <ul>
-                <li>Till Lindemann - Vocal</li>
-                <li>Richard Z. Kruspe - Guitarra</li>
-                <li>Paul Landers - Guitarra</li>
-                <li>Oliver Riedel - Baixo</li>
-                <li>Christoph Schneider - Bateria</li>
-                <li>Christian "Flake" Lorenz - Teclado</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Discografia</h2>
-            <p>Entre seus álbuns mais conhecidos estão:</p>
-            <ul>
-                <li>Herzeleid (1995)</li>
-                <li>Sehnsucht (1997)</li>
-                <li>Mutter (2001)</li>
-                <li>Reise, Reise (2004)</li>
-                <li>Rosenrot (2005)</li>
-                <li>Liebe ist für alle da (2009)</li>
-            </ul>
-        </article>
+        <section id="introducao">
+            <div class="section-content">
+                <h2>Introdução</h2>
+                <p>Rammstein é uma banda alemã de metal industrial formada em 1994 em Berlim. Conhecidos por suas letras provocativas e performances ao vivo intensas, o grupo se destacou não apenas pelo som pesado, mas também pela estética e polêmica que cercam suas músicas e apresentações.</p>
+                <p>O Rammstein é composto por seis membros talentosos que colaboram para criar um som único e uma experiência visual inigualável em seus shows ao vivo.</p>
+            </div>
+        </section>
+        
+        <section id="membros">
+            <div class="section-content">
+                <h2>Membros da Banda</h2>
+                <ul>
+                    <li><strong>Till Lindemann</strong> - Vocal</li>
+                    <li><strong>Richard Z. Kruspe</strong> - Guitarra</li>
+                    <li><strong>Paul Landers</strong> - Guitarra</li>
+                    <li><strong>Oliver Riedel</strong> - Baixo</li>
+                    <li><strong>Christoph Schneider</strong> - Bateria</li>
+                    <li><strong>Christian "Flake" Lorenz</strong> - Teclado</li>
+                </ul>
+                <p>Cada membro do Rammstein traz uma contribuição única para o som e a estética da banda, resultando em uma fusão poderosa de metal, industrial e elementos eletrônicos.</p>
+            </div>
+        </section>
+        
+        <section id="discografia">
+            <div class="section-content">
+                <h2>Discografia</h2>
+                <h3>Álbuns de Estúdio</h3>
+                <ul>
+                    <li><strong>Herzeleid</strong> (1995)</li>
+                    <li><strong>Sehnsucht</strong> (1997)</li>
+                    <li><strong>Mutter</strong> (2001)</li>
+                    <li><strong>Reise, Reise</strong> (2004)</li>
+                    <li><strong>Rosenrot</strong> (2005)</li>
+                    <li><strong>Liebe ist für alle da</strong> (2009)</li>
+                    <li><strong>Rammstein</strong> (2019)</li>
+                </ul>
+                <h3>Álbuns ao Vivo</h3>
+                <ul>
+                    <li><strong>Live aus Berlin</strong> (1999)</li>
+                    <li><strong>Völkerball</strong> (2006)</li>
+                    <li><strong>Paris</strong> (2017)</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="videos">
+            <div class="section-content">
+                <h2>Vídeos</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOVhpE7S5ys" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p>Assista ao videoclipe oficial de "<strong>Deutschland</strong>", uma das músicas mais recentes do Rammstein.</p>
+            </div>
+        </section>
+        
+        <section id="contato">
+            <div class="section-content">
+                <h2>Contato</h2>
+                <p>Para mais informações sobre o Rammstein, entre em contato conosco:</p>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
     </main>
+    
     <footer>
-        <p>&copy; 2024 Seu Nome</p>
+        <div class="footer-content">
+            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/rammstein" target="_blank" rel="noopener noreferrer"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/rammsteinofficial" target="_blank" rel="noopener noreferrer"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="https://twitter.com/RSprachrohr" target="_blank" rel="noopener noreferrer"><img src="twitter-icon.png" alt="Twitter"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
